@@ -1,0 +1,14 @@
+notes on logic:
+1. computer: "think a word."
+2. computer: "how many letters are there in the word?"
+    user: "7"
+3. [loop] computer: "is 'a' in the word?"
+    user: "yes" mark position of the letter
+    loop till the chances used up or the word is successful guessed
+
+guessWord is a function takes a number(word length) as input, then try to guess the word based on the word length, it stores the word in a sorted binary list whether it's guessed the answer or not.
+
+the function will guess word.length*2 4. store the word in a sorted binary tree, (the more words it stores, the more likely it guesses words.)
+
+3.1 [improved guessing] computer: "is 'd' ... " ( the guess is based on probability of occurance of words stored in binary sorting tree
+guessWord =
